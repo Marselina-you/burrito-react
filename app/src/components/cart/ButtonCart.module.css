@@ -1,0 +1,32 @@
+.btn_card {
+    margin-right: 140px;
+  }
+  @media (max-width: 1440px) {
+    .btn_card {
+      margin-right: 80px;
+    }
+  }
+  @media (max-width: 1180px) {
+    .btn_card {
+      margin-right: 65px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .btn_card {
+      margin: 0;
+      padding: 20px 0;
+    }
+  }
+  .btn_card  {
+    font: var(--regular-lato);
+    text-transform: capitalize;
+    color: var(--light-color);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+  @media (min-width: 1024px) {
+    .btn_card:hover {
+      color: var(--text-light-color);
+    }
+  }
